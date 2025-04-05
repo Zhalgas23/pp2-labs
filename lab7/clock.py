@@ -9,13 +9,13 @@ screen_width = 800
 screen = pygame.display.set_mode((screen_length, screen_width))
 pygame.display.set_caption("clock task")
 
-icon = pygame.image.load('lab7/images/clock.jpeg')
+icon = pygame.image.load('lab7/images/mickeyclock1.png')
 pygame.display.set_icon(icon)
 
 # clock
-clock = pygame.image.load('lab7/images/clock.jpeg').convert_alpha()
-second_arrow = pygame.image.load('lab7/images/arrow s.png').convert_alpha()
-minute_arrow = pygame.image.load('lab7/images/arrow m.png').convert_alpha()
+clock = pygame.image.load('lab7/images/mickeyclock1.png').convert_alpha()
+second_arrow = pygame.image.load('lab7/images/hand1.png').convert_alpha()
+minute_arrow = pygame.image.load('lab7/images/hand2.png').convert_alpha()
 
 x = (screen_length - clock.get_width()) // 2
 y = (screen_width - clock.get_height()) // 2
